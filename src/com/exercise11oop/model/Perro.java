@@ -8,13 +8,19 @@ public class Perro
 	public int age;
 	public double height;
 	
-	public Perro(int id, String name, String breed, int age, double height) {
+	public Perro(int id, String name, String breed, int age, double height) 
+	{
 		this.id = id;
 		this.name = name;
 		this.breed = breed;
 		this.age = age;
 		this.height = height;
 	}
+	
+	public Perro() {
+		
+	}
+	
 
 	@Override
 	public String toString() {
